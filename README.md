@@ -1,10 +1,10 @@
-# Decodificador de texto
+# Desafio Portfólio
 ![Badge em Desenvolvimento](http://img.shields.io/static/v1?label=STATUS&message=EM%20DESENVOLVIMENTO&color=GREEN&style=for-the-badge)  
 Desafio Portfolio da turma 7 do programa ONE (Oracle Next Education)
 <br />
 <br />
 ## :hammer: Funcionalidades do projeto
-- `portfolio`: simular o portfolio do aluno
+- `portfolio`: simular o portfólio do aluno
 
 <br />
 
