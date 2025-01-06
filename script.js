@@ -1,21 +1,21 @@
 const skillsList = [
-  { title: "HTML", img: "./assets/html_icon.png" },
-  { title: "CSS", img: "./assets/css_icon.png" },
-  { title: "JavaScript", img: "./assets/js_icon.png" },
-  { title: "React JS", img: "./assets/react_icon.png" },
-  { title: "Vue JS", img: "./assets/vue_icon.png" },
-  { title: "Node JS", img: "./assets/node_icon.png" },
-  { title: "Python", img: "./assets/python_icon.png" },
-  { title: "Pandas", img: "./assets/pandas_icon.png" },
-  { title: "Flutter", img: "./assets/flutter_icon.png" },
+  { title: "HTML", img: "./src/assets/html_icon.png" },
+  { title: "CSS", img: "./src/assets/css_icon.png" },
+  { title: "JavaScript", img: "./src/assets/js_icon.png" },
+  { title: "React JS", img: "./src/assets/react_icon.png" },
+  { title: "Vue JS", img: "./src/assets/vue_icon.png" },
+  { title: "Node JS", img: "./src/assets/node_icon.png" },
+  { title: "Python", img: "./src/assets/python_icon.png" },
+  { title: "Pandas", img: "./src/assets/pandas_icon.png" },
+  { title: "Flutter", img: "./src/assets/flutter_icon.png" },
 ];
 const hobbiesList = [
-  { title: "Games", img: "./assets/games_icon.png" },
-  { title: "Bike", img: "./assets/bike_icon.png" },
-  { title: "Séries", img: "./assets/series_icon.png" },
-  { title: "Filmes", img: "./assets/movies_icon.png" },
-  { title: "DIY", img: "./assets/diy_icon.png" },
-  { title: "Futebol", img: "./assets/soccer_icon.png" },
+  { title: "Games", img: "./src/assets/games_icon.png" },
+  { title: "Bike", img: "./src/assets/bike_icon.png" },
+  { title: "Séries", img: "./src/assets/series_icon.png" },
+  { title: "Filmes", img: "./src/assets/movies_icon.png" },
+  { title: "DIY", img: "./src/assets/diy_icon.png" },
+  { title: "Futebol", img: "./src/assets/soccer_icon.png" },
 ];
 const socialMediaList = [
   { title: "Github", href: "http://github.com/marcus88santos" },
@@ -27,25 +27,25 @@ const academicList = [
     title: "Engenharia Civil",
     date: "2011",
     institution: "UFS",
-    img: "./assets/logo_ufs.png",
+    img: "./src/assets/logo_ufs.png",
   },
   {
     title: "MBA em Gerenciamento de Projetos",
     date: "2018",
     institution: "Fanese",
-    img: "./assets/logo_fanese.png",
+    img: "./src/assets/logo_fanese.png",
   },
   {
     title: "Desenvolvimento Front-end",
     date: "2021",
     institution: "Alura",
-    img: "./assets/logo_alura.svg",
+    img: "./src/assets/logo_alura.svg",
   },
   {
     title: "Análise e Desenvolvimento de Sistemas",
     date: "Em andamento",
     institution: "UNIT",
-    img: "./assets/logo_unit.png",
+    img: "./src/assets/logo_unit.png",
   },
 ];
 const professionalList = [
@@ -60,7 +60,7 @@ const professionalList = [
     title: "Decodificador de Texto",
     subtitle: "Challenge Alura Codificador",
     imgType: "img",
-    imgSrc: "./assets/exp_decoder.png",
+    imgSrc: "./src/assets/exp_decoder.png",
     repoLink:
       "https://github.com/marcus88santos/t7-oracle-next-education-challange1",
     demo: "https://marcus88santos.github.io/t7-oracle-next-education-challange1/",
@@ -69,14 +69,14 @@ const professionalList = [
     title: "Automação para Formatação de Relatórios em Excel",
     subtitle: "Aplicação de conceitos de análise de dados com Python",
     imgType: "img",
-    imgSrc: "./assets/exp_formatar-relatorios.png",
+    imgSrc: "./src/assets/exp_formatar-relatorios.png",
     repoLink: "https://github.com/marcus88santos/bc-formatar-relatorios",
   },
   {
     title: "Exclusão e Atualização das Composições de um Orçamento",
     subtitle: "Aplicação de conceitos de análise de dados com Python",
     imgType: "img",
-    imgSrc: "./assets/exp_substituir-composicoes.png",
+    imgSrc: "./src/assets/exp_substituir-composicoes.png",
     repoLink: "https://github.com/marcus88santos/bc-substituir-composicoes",
   },
   {
@@ -84,7 +84,7 @@ const professionalList = [
     subtitle:
       "Projeto desenvolvido durante a Imersão React 4, realizada pela Alura",
     imgType: "img",
-    imgSrc: "./assets/exp_aluracord.png",
+    imgSrc: "./src/assets/exp_aluracord.png",
     repoLink: "https://github.com/marcus88santos/imersao-react-aluracord",
     demo: "https://vercel.com/marcus88santos-projects/imersao-react-aluracord-5dhg/GzziBpLUwd269iKFT34Q66F29z1b",
   },
@@ -106,7 +106,7 @@ socialMediaList.forEach((item) => {
     <p>
       ${item.title}
     </p>
-    <img src='./assets/arrow.png' alt='' id='arrow'/>
+    <img src="./src/assets/arrow.png" alt='' id='arrow'/>
   </a>
   `;
 });
